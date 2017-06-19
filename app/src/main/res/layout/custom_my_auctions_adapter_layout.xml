@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:grid="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/choice_grid"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:padding="4dp"
+
+    grid:alignmentMode="alignBounds"
+    grid:columnCount="6"
+    grid:rowCount="2"
+    grid:rowOrderPreserved="false"
+    grid:useDefaultMargins="true">
+
+
+    <RelativeLayout
+        grid:layout_rowSpan="2"
+        grid:layout_column="0"
+        grid:layout_gravity="left">
+        <ImageView
+            android:id="@+id/imageViewThumbnail"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/img_not_found"
+
+            />
+        <ImageView
+            android:id="@+id/imageViewSoldTag"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textColor="@color/colorPrimary"
+        grid:layout_row="0"
+        grid:layout_column="1"
+        grid:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/textViewItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textColor="@color/colorPrimary"
+        grid:layout_row="0"
+        grid:layout_column="2"
+        grid:layout_gravity="center"
+        />
+
+
+
+    <TextView
+        android:id="@+id/textViewCurrentPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price:"
+        android:textColor="@color/colorPrimary"
+        grid:layout_row="1"
+        grid:layout_column="1"
+        grid:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/textViewStartPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textColor="@color/colorPrimary"
+        grid:layout_row="1"
+        grid:layout_column="2"
+        />
+
+
+    <TextView
+        android:id="@+id/textViewBids"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bids:"
+        android:textColor="@color/colorAccent"
+        grid:layout_row="0"
+        grid:layout_column="3"
+        grid:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/textViewNumberOfBids"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/colorAccent"
+        grid:layout_row="0"
+        grid:layout_column="4"
+        />
+
+
+
+    <TextView
+        android:id="@+id/textViewDaysLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Days Left:"
+        android:textColor="@color/colorAccent"
+        grid:layout_row="1"
+        grid:layout_column="3"
+        grid:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/textViewEndDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:text="18"
+        android:textColor="@color/colorAccent"
+        grid:layout_row="1"
+        grid:layout_column="4"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/imageViewDeleteAuction"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        grid:layout_row="0"
+        grid:layout_column="5"
+        />
+
+
+
+</android.support.v7.widget.GridLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1038472968334",
+    "firebase_url": "https://my-app-753ac.firebaseio.com",
+    "project_id": "my-app-753ac",
+    "storage_bucket": "my-app-753ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038472968334:android:271e3d0b68627965",
+        "android_client_info": {
+          "package_name": "com.example.wifi.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038472968334-3vu67d9vmgbgcga92ltovo1703mn7osc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzW2hIc5GBZf7omEQjUAfGFiXmnxQhvzM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

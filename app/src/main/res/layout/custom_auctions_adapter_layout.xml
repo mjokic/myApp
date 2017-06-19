@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageViewThumbnail"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/img_not_found"
+        />
+
+    <ImageView
+        android:id="@+id/imageViewSoldTag"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        />
+
+
+    <TextView
+        android:id="@+id/textViewItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:layout_toEndOf="@+id/imageViewThumbnail"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:id="@+id/textViewCurrentPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Price:"
+        android:layout_toEndOf="@+id/imageViewThumbnail"
+        android:layout_below="@+id/textViewItemName"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:id="@+id/textViewStartPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:layout_toEndOf="@+id/textViewCurrentPrice"
+        android:layout_below="@+id/textViewItemName"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:id="@+id/textViewBids"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bids:"
+        android:layout_toStartOf="@+id/textViewNumberOfBids"
+        android:textColor="@color/colorAccent"
+        />
+
+    <TextView
+        android:id="@+id/textViewNumberOfBids"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="textEnd"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/colorAccent"
+        />
+
+    <TextView
+        android:id="@+id/textViewDaysLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:layout_below="@+id/textViewNumberOfBids"
+        android:layout_toStartOf="@+id/textViewEndDate"
+        android:text="DaysLeft:"
+        android:textColor="@color/colorAccent"
+        />
+
+    <TextView
+        android:id="@+id/textViewEndDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="textEnd"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/textViewNumberOfBids"
+        android:text="18"
+        android:textColor="@color/colorAccent"
+        />
+
+
+</RelativeLayout>

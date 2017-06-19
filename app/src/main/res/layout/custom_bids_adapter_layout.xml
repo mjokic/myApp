@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewBidPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="test"
+        />
+
+    <TextView
+        android:id="@+id/textViewBidDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:layout_below="@+id/textViewBidPrice"
+        android:textColor="@color/preference_fallback_accent_color"
+
+        />
+
+
+    <TextView
+        android:id="@+id/textViewBidUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textAlignment="textEnd"
+        android:layout_toEndOf="@+id/textViewBidPrice"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+</RelativeLayout>

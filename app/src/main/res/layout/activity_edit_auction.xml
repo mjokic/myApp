@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wifi.myapp.activity.EditAuctionActivity">
+
+    <include android:id="@+id/toolbar" layout="@xml/toolbar" />
+
+    <ImageView
+        android:id="@+id/imageViewItemImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_toEndOf="@+id/imageViewItemImage"
+        android:text="name"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewItemDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewItemName"
+        android:layout_toEndOf="@+id/imageViewItemImage"
+        android:text="desc"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextStartPrice"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewItemImage"
+        android:hint="Start Price"
+        />
+
+    <EditText
+        android:id="@+id/editTextStartDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextStartPrice"
+        android:hint="Start Date"
+        />
+
+    <EditText
+        android:id="@+id/editTextEndDate"
+        android:inputType="datetime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextStartDate"
+        android:hint="End Date"
+        />
+
+
+
+    <Button
+        android:id="@+id/buttonEditAuction"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EDIT"/>
+
+</RelativeLayout>

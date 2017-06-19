@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="settings_show_splash">Show Splash</string>
+    <string name="settings_splash_screen">Visible Splash Screen</string>
+
+    <string name="settings_splash_delay">Splash Delay</string>
+    <string name="settings_splash_delay_details">Splash delay in seconds</string>
+
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string-array name="navDrawerItemNames">
+        <item>Items</item>
+        <item>Auctions</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="bid">Bid</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

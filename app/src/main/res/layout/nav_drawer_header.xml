@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/nav_drawer_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/nav_drawer_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/nav_drawer_image"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text="TEST"
+        />
+
+    <TextView
+        android:id="@+id/nav_drawer_user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/nav_drawer_image"
+        android:layout_below="@+id/nav_drawer_user_name"
+        android:textAlignment="center"
+        android:text="test@gmail.com"
+        />
+
+</RelativeLayout>

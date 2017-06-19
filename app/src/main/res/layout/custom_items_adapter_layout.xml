@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:id="@+id/imageViewThumbnail"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/img_not_found"
+        />
+
+    <ImageView
+        android:id="@+id/imageViewSoldTag"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:layout_toEndOf="@+id/imageViewThumbnail"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:id="@+id/textViewIsSold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100"
+        android:layout_toEndOf="@+id/imageViewThumbnail"
+        android:layout_below="@+id/textViewItemName"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <ImageView
+        android:id="@+id/imageViewDeleteItem"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_delete_black"
+        />
+
+</RelativeLayout>

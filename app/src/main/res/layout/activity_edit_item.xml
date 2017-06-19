@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wifi.myapp.activity.EditItemActivity">
+
+    <include android:id="@+id/toolbar" layout="@xml/toolbar" />
+
+
+    <ImageView
+        android:id="@+id/imageViewItemImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:adjustViewBounds="true"
+        android:layout_below="@+id/toolbar"
+        />
+
+    <!--<TextView-->
+        <!--android:id="@+id/textViewItemName"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_toEndOf="@+id/imageViewItemImage"-->
+        <!--android:layout_below="@+id/toolbar"-->
+        <!--android:textAlignment="center"-->
+        <!--android:text="Name"-->
+        <!--/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textViewItemDescription"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/textViewItemName"-->
+        <!--android:layout_toEndOf="@+id/imageViewItemImage"-->
+        <!--android:textAlignment="center"-->
+        <!--android:text="Description"-->
+        <!--/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textViewItemSold"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/textViewItemDescription"-->
+        <!--android:layout_toEndOf="@id/imageViewItemImage"-->
+        <!--android:textAlignment="center"-->
+        <!--android:text="Sold"-->
+        <!--/>-->
+
+
+    <EditText
+        android:id="@+id/editTextItemName"
+        android:inputType="text"
+        android:layout_below="@+id/imageViewItemImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Name"
+        />
+
+    <EditText
+        android:id="@+id/editTextItemDescription"
+        android:lines="5"
+        android:layout_below="@+id/editTextItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Description"
+        />
+
+
+    <Button
+        android:id="@+id/buttonEditItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="EDIT"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="pref_splash_vis"
+        android:title="@string/settings_show_splash"
+        android:summary="@string/settings_splash_screen"
+        android:defaultValue="true" />
+
+    <EditTextPreference
+        android:key="pref_splash_time"
+        android:title="@string/settings_splash_screen"
+        android:summary="@string/settings_splash_delay_details"
+        android:defaultValue="5"
+        android:inputType="number"
+        />
+
+
+</PreferenceScreen>
